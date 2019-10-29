@@ -14,8 +14,10 @@ constructor(props) {
 
 render() {
     const {collections} = this.state;
-return (<div className='shop-page'>
-
+return (
+   
+<div className='shop-page'>
+<h1>Shop Page</h1>
 {collections.map(({id, ...otherCollectionPropos}) => <CollectionPreview key={id} {...otherCollectionPropos}></CollectionPreview> )}
 
 </div>)
