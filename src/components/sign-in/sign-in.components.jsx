@@ -36,7 +36,7 @@ render () {
     
 <div className="buttons">
 <Custombutton type="submit" value="Signin">SIGN IN</Custombutton>
-<Custombutton onClick={signInWithGoogle} isGoogleSignIn >SIGN IN WITH GOOGLE</Custombutton>
+<Custombutton type="button" onClick={signInWithGoogle} isGoogleSignIn >SIGN IN WITH GOOGLE</Custombutton>
 </div>
 </form>
         </div>
