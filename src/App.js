@@ -33,6 +33,7 @@ unsubscribeFromAuth = null;
          }
        })
        
+       console.log(this.state);
 
       })
       
